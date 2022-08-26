@@ -95,12 +95,17 @@ header img {
 }
 
 header .icon {
+  font-size: 30px;
   display: none;
   position: absolute;
   right: 20px;
-  top: 13px;
+  top: 2px;
   color: #2177AF;
   cursor: pointer;
+}
+
+header .icon:hover {
+  color: #2177af;
 }
 
 header .logo-mini {
@@ -468,6 +473,14 @@ section.contact {
   top: -30px;
 }
 
+section.contact a, section.contact a:visited, section.contact a:link{
+  color:  #2177AF;
+  text-decoration: none;
+  transition: color 1s;
+} {
+
+}
+
 section.contact .contact-info {
   display: flex;
   align-items: flex-start;
@@ -485,12 +498,12 @@ section.contact .info {
 }
 
 section.contact .info img {
-  width: 40px;
+  width: 30px;
 }
 
 section.contact .info p {
   margin-left: 15px;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 600;
 }
 
