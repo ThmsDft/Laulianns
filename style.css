@@ -450,17 +450,36 @@ section.tarifs .tarif:hover {
   }
 }
 
+
 /* REALISATIONS */
 
-section.realisations {
+section.reservations {
   background-color: #E9F1F7;
   position: relative;
+  box-sizing: border-box;
 }
 
-#realisations {
+#reservations {
   position: absolute;
   top: -30px;
 }
+
+.calendly-inline-widget {
+  margin-top: -70px;
+  padding: 0;
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width: 811px) {
+  .calendly-inline-widget {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 280px;
+  }
+}
+
 
 
 /* CONTACT */
@@ -477,8 +496,6 @@ section.contact a, section.contact a:visited, section.contact a:link{
   color:  #2177AF;
   text-decoration: none;
   transition: color 1s;
-} {
-
 }
 
 section.contact .contact-info {
