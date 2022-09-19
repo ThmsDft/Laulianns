@@ -424,6 +424,27 @@ section.tarifs .espace {
   height: 40px;
 }
 
+section.tarifs .taille {
+  margin-left: 130px;
+}
+
+.chablon {
+  position: relative;
+}
+
+.img-chablon {
+  position: absolute;
+  top: -143px;
+  left: 14px;
+  height: 183.968px;
+  z-index: 10
+}
+
+.titre-chablon {
+  position: relative;
+  z-index: 800;
+}
+
 section.tarifs .tarif:hover {
   border: solid 1px #2177AF;
 }
