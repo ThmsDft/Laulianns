@@ -47,7 +47,7 @@ a {
 }
 
 
-/* HEADER */
+/* =========HEADER========= */
 
 header {
   position: relative;
@@ -152,7 +152,7 @@ header ul.menu-mini-appear li {
   }
 }
 
-/* IMAGE D'ACCUEIL */
+/* =========IMAGE D'ACCUEIL========= */
 
 section.logo {
   position: relative;
@@ -225,7 +225,7 @@ section.video .instagram img {
 
 
 
-/* PRESENTATION */
+/* =========PRESENTATION========= */
 
 section.presentation .bloc-presentation {
   display: flex;
@@ -266,7 +266,7 @@ section.presentation .bloc-text-presentation {
 
 
 
-/* PRESTATIONS */
+/* =========PRESTATIONS========= */
 
 section.prestations {
   background-color: #E9F1F7;
@@ -375,7 +375,7 @@ section.prestations .bottom-prestations h2 {
 
 
 
-/* TARIFS */
+/* =========TARIFS========= */
 
 section.tarifs {
   position: relative;
@@ -472,7 +472,7 @@ section.tarifs .tarif:hover {
 }
 
 
-/* REALISATIONS */
+/* =========REALISATIONS========= */
 
 section.reservations {
   background-color: #E9F1F7;
@@ -503,7 +503,7 @@ section.reservations {
 
 
 
-/* CONTACT */
+/* =========CONTACT========= */
 section.contact {
   position: relative;
 }
@@ -586,4 +586,20 @@ section.contact iframe {
     display: block;
     margin-bottom: 30px;
   }
+}
+
+
+/* =========SCROLL REVEAL========= */
+
+.reveal {
+  position: relative;
+  top: 40px;
+  opacity: 0;
+  transition: 0.9s;
+	transition-timing-function: cubic-bezier(0.5, 0, 0, 1);
+}
+
+.active {
+  top: 0px;
+  opacity: 1
 }
