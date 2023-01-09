@@ -551,13 +551,32 @@ section.contact .container .infos a h3 {
   margin: 0;
 }
 
-section.contact .container img {
-  height: 300px;
+section.contact .container .image {
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-@media (max-width: 675px) {
-  section.contact .container img {
-    height: 200px;
+section.contact .container .image img {
+  width: 200px;
+  height: 100%;
+}
+
+
+@media (max-width: 565px) {
+  section.contact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  section.contact .container .infos {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  section.contact .container .image {
+    margin-top: 40px;
   }
 }
 
