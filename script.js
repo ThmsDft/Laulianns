@@ -14,10 +14,12 @@ function menuAppear() {
   }
 
 
+
+
 /* =========SCROLL REVEAL========= */
 
 function scrollReveal() {
-	var revealPoint = 150;
+	var revealPoint = 20;
 	var revealElement = document.querySelectorAll(".reveal");
 	for (var i = 0; i < revealElement.length; i++) {
 		var windowHeight = window.innerHeight;
